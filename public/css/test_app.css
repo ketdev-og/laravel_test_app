@@ -1,0 +1,52 @@
+html{
+    background-color: rgb(224, 224, 224);
+}
+
+body{
+    height: 90vh;
+}
+
+.form_con{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+form{
+    padding:2rem 3rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgb(230, 229, 229);
+}
+
+form h1{
+    color: rgb(153, 153, 153);
+    text-shadow:0 0 2px rgb(119, 119, 119); ;
+}
+form div{
+    margin: 1.2rem 0;
+}
+
+form input{
+    padding: 0.6rem 0.4rem;
+    color: rgb(153, 153, 153);
+    background-color:rgb(161, 161, 161);;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+form .submit{
+    width: 100%;
+    background-color: rgb(158, 103, 247);
+    color: white;
+    transition: all 300ms ease-in;
+}
+
+form .submit:hover{
+    background-color: rgb(100, 42, 194);
+    cursor: pointer;
+}
